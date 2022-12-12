@@ -62,5 +62,6 @@ while True:
 
     with open('csgoDB.txt', 'w', encoding='utf-8') as f:
         f.write(weapon_data)
+        f.close()
 
 
