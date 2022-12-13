@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome(executable_path=r"C:\Users\Tjalfe\Desktop\chromedriver.exe")
+driver = webdriver.Chrome(executable_path=r"chromedriver")
 
 driver.get("https://store.steampowered.com/login/")
 
